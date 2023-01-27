@@ -1,14 +1,14 @@
 file:
     upload-dir: /Code/UdemySpringBoot/UploadDir
 flyway:
-    password: admin
+    password: admin123
     schemas: rest_with_spring_boot_udemy
     url: jdbc:mysql://localhost:3306/
     user: root
 spring:
     datasource:
         driverClassName: com.mysql.cj.jdbc.Driver
-        password: admin
+        password: admin123
         url: jdbc:mysql://localhost:3306/rest_with_spring_boot_udemy?useTimezone=true&serverTimezone=UTC
         username: root
     jackson:
